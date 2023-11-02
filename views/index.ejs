@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input data</title>
+    <style>
+        .container{
+            width: 400px;
+            height:200px ;
+            background-color: aqua;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form method="post" action="/user">
+            <label for="Name">Enter Name</label>
+            <input type="text" placeholder="Enter Name" name="Name"><br>
+            <label for="Email">Enter Email</label>
+            <input type="email" placeholder="Enter Email" name="Email"><br>
+            <label for="Phone">Enter Phone Number</label>
+            <input type="number" placeholder="Enter Phone number" name="Phone"><br>
+            <button type="submit">submit</button>
+         </form>
+    </div>
+</body>
+</html>
